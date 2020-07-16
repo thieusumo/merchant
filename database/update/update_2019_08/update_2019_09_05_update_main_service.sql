@@ -1,0 +1,1 @@
+ALTER TABLE `main_service` ADD `service_menu_id` TEXT NOT NULL COMMENT 'menu_id in pos_merchant_menus--implode ;' AFTER `service_status`, ADD `service_expiry_period` INT(5) NOT NULL COMMENT 'unit:month' AFTER `service_menu_id`;

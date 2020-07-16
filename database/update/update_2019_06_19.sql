@@ -1,0 +1,1 @@
+ALTER TABLE `pos_place` ADD `hide_service_price` TINYINT(1) NOT NULL DEFAULT '0' AFTER `place_bank_fee`;

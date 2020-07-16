@@ -1,0 +1,1 @@
+ALTER TABLE `pos_user` ADD `web_device_token` TEXT NULL AFTER `user_sms_forgot_number`;

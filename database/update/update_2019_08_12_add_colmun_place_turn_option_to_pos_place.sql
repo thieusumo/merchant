@@ -1,0 +1,1 @@
+ALTER TABLE `pos_place` ADD `place_turn_option` TINYINT(1) NOT NULL DEFAULT '1' AFTER `place_total_sms`;

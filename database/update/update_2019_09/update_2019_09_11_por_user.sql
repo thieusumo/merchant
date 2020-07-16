@@ -1,0 +1,1 @@
+ALTER TABLE `pos_user` ADD `user_code_forgot` INT(5) NULL AFTER `web_device_token`;

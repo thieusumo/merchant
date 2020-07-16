@@ -1,0 +1,1 @@
+ALTER TABLE `pos_promotion` ADD `promotion_group` INT(1) NOT NULL DEFAULT '0' COMMENT '0:Normal ; 1:Happy hours ; 2: Instant Day' AFTER `promotion_type`;

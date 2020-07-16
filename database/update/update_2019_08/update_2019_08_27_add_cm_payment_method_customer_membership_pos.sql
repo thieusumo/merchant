@@ -1,0 +1,1 @@
+ALTER TABLE `pos_customer_membership_history` ADD `cm_payment_method` TINYINT(1) NOT NULL DEFAULT '0' COMMENT '0 is cash,1 is credit,2 is debit' AFTER `cm_time_buy`;

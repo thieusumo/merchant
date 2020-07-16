@@ -1,0 +1,1 @@
+ALTER TABLE `pos_promotion` ADD `promotion_popup_website` INT(1) NULL DEFAULT '0' AFTER `promotion_type`;

@@ -1,0 +1,1 @@
+ALTER TABLE `pos_user` ADD `user_pin` VARCHAR(11) NOT NULL DEFAULT '123456' AFTER `user_password`;

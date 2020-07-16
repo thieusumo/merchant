@@ -1,0 +1,2 @@
+ALTER TABLE pos_giftcode ADD giftcode_loyalty_referral VARCHAR(255) AFTER giftcode_date_expire ;
+ALTER TABLE `pos_giftcode` ADD `giftcode_payment_type` INT NULL DEFAULT NULL COMMENT '0:cash;1:merchant;2:authorize.net' AFTER `giftcode_type`;

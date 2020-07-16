@@ -1,0 +1,1 @@
+ALTER TABLE `pos_booking` ADD `booking_combine` VARCHAR(10) NULL AFTER `booking_type`;

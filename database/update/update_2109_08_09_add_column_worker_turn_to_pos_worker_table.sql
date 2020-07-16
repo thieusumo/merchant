@@ -1,0 +1,1 @@
+ALTER TABLE `pos_worker` ADD `worker_turn` INT(11) NOT NULL DEFAULT '0' COMMENT 'worker turn for select worker in payment' AFTER `worker_family_people`;

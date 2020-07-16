@@ -1,0 +1,1 @@
+ALTER TABLE `pos_cateservice` ADD `cateservice_icon_image` TEXT NULL AFTER `cateservice_image`;

@@ -1,0 +1,1 @@
+ALTER TABLE `pos_loyalty` ADD `loyalty_price_to_point` VARCHAR(255) NOT NULL AFTER `loyalty_place_id`, ADD `loyalty_service_to_point` VARCHAR(255) NOT NULL AFTER `loyalty_price_to_point`, ADD `loyalty_point_to_amount` VARCHAR(255) NOT NULL AFTER `loyalty_service_to_point`;

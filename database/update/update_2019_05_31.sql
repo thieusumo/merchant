@@ -1,0 +1,1 @@
+ALTER TABLE `pos_place_expense` ADD `pe_pay` TINYINT(1) NOT NULL DEFAULT '1' AFTER `pe_date`, ADD `pe_cycle` TINYINT(1) NOT NULL DEFAULT '1' AFTER `pe_pay`, ADD `pe_bill` VARCHAR(255) NOT NULL AFTER `pe_cycle`;

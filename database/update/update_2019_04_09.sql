@@ -1,0 +1,1 @@
+ALTER TABLE `pos_service` ADD `service_list_image` TEXT NOT NULL AFTER `service_image`;

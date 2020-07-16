@@ -1,0 +1,1 @@
+ALTER TABLE `pos_worker` ADD `worker_checkin` INT(3) NULL DEFAULT '0' AFTER `worker_turn`;

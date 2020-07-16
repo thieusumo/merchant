@@ -1,0 +1,3 @@
+ALTER TABLE `pos_customer_rating` CHANGE `cr_fullname` `cr_fullname` VARCHAR(256) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL, CHANGE `cr_description` `cr_description` TEXT CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL, CHANGE `cr_reply` `cr_reply` TEXT CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL;
+
+ALTER TABLE `pos_sms_send_event`  ADD `sms_total` INT(11) NOT NULL  AFTER `sms_send_event_status`,  ADD `sms_send_event_enable` BOOLEAN NOT NULL  AFTER `sms_total`;

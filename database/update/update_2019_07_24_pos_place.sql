@@ -1,0 +1,1 @@
+ALTER TABLE `pos_place` ADD `place_total_sms` INT(11) NULL AFTER `hide_service_price`;

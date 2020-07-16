@@ -1,0 +1,1 @@
+ALTER TABLE `pos_membership_detail` ADD `membership_detail_time` TINYINT(11) NOT NULL DEFAULT '1' COMMENT 'time for mebership , unit: month' AFTER `membership_detail_membership_id`;
